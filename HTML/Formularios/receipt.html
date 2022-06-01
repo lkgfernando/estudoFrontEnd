@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- receipt ==> Recibo em Inglês -->
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Recibo</title>
+    </head>
+    <body>
+        <h2>Recibo De Pagamentos</h2>
+        <div>
+            <form>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>
+                                <label for="ntext">Numero do Recibo</label>:
+                            </th>
+                            <th>
+                                <input
+                                    type="number"
+                                    name="ntext"
+                                    id="ntext"
+                                    min="1"
+                                    max="9999"
+                                />
+                            </th>
+                            <th><label for="ntext2">Valor </label></th>
+                            <th colspan="2">
+                                <input
+                                    type="text"
+                                    name="ntext2"
+                                    id="ntext2"
+                                    placeholder="R$"
+                                />
+                            </th>
+                        </tr>
+                    </thead>
+                    <!--Fim do cabeçalho do recibo-->
+                    <tbody>
+                        <tr>
+                            <td>
+                                <label for="ntext3">Recebi(emos) de </label>
+                            </td>
+                            <td colspan="4">
+                                <input
+                                    type="text"
+                                    name="ntext3"
+                                    id="ntex3"
+                                    size="62"
+                                    disabled
+                                    value="O Villa Bar e Restaurante"
+                                />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="ntext4">Referencia à: </label></td>
+                            <td colspan="4">
+                                <input
+                                    type="text"
+                                    name="ntext4"
+                                    id="ntext4"
+                                    size="62"
+                                />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="4">
+                                E para clareza fimo(amos) o presete.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text" name="ntext5" id="ntext" />,
+                            </td>
+                            <td>
+                                <input
+                                    type="number"
+                                    name="rnum"
+                                    min="1"
+                                    max="31"
+                                />de
+                            </td>
+                            <td>
+                                <input type="text" name="rtext6" id="rtext6" />
+                                de
+                            </td>
+                            <td>
+                                <input type="number" name="rnum2" id="rnum2" />
+                            </td>
+                        </tr>
+                        <tr>
+                          <td colspan="3">Assintatura:<input type="text" name="rtext7" id="rtext7" size="52" ></Label></td>
+                          <td>CPF/RG:<input type="text" name="rtext8" id="rtext8" size="12"></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <input type="submit" value="Gravar Recibo" />
+                <button>Limpar</button>
+            </form>
+        </div>
+    </body>
+</html>
