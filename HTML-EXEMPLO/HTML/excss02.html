@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Solução CSS</title>
+    </head>
+    <style>
+        ul.listaBonita > li {
+            list-style: none;
+            border-width: 2px;
+            border-color: #a0a0a0;
+            padding: 4px 8px;
+            border-left-style: solid;
+            border-right-style: solid;
+        }
+
+        ul.listaBonita {
+            color: #353535;
+        }
+
+        ul.listaBonita > li:first-child {
+            border-top-style: solid;
+            border-top-left-radius: 3px;
+            border-top-right-radius: 3px;
+        }
+
+        ul.listaBonita > li:last-child {
+            border-bottom-left-radius: 3px;
+            border-bottom-right-radius: 3px;
+            border-bottom-style: solid;
+        }
+
+        ul.listaBonita > li:hover {
+            background-color: #ebebeb;
+        }
+
+        ul.listaBonita > li.selecionado {
+            background-color: #bfdbff;
+            border-color: #2e79db;
+            border-bottom-style: solid;
+        }
+
+        ul.listaBonita > li:not(.selecionado) + li.selecionado {
+            border-top-style: solid;
+        }
+
+        ul.listaBonita > li:not(.selecionado) + li:not(.selecionado) {
+            border-top-style: solid;
+        }
+    </style>
+    <body>
+        <ul class="listaBonita">
+            <li>ITEM 1</li>
+            <li>ITEM 2</li>
+            <li>ITEM 3</li>
+        </ul>
+
+        <ul class="listaBonita">
+            <li class="selecionado">ITEM 1</li>
+            <li class="selecionado">ITEM 2</li>
+            <li>ITEM 3</li>
+        </ul>
+
+        <ul class="listaBonita">
+            <li>ITEM 1</li>
+            <li class="selecionado">ITEM 2</li>
+            <li>ITEM 3</li>
+            <li class="selecionado">ITEM 4</li>
+        </ul>
+
+        <ul class="listaBonita">
+            <li>ITEM 1</li>
+        </ul>
+
+        <ul>
+            <li>ITEM 1</li>
+            <li>ITEM 2</li>
+            <li>ITEM 3</li>
+        </ul>
+    </body>
+</html>

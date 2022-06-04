@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Block VS Inline</title>
+        <link rel="stylesheet" href="./css/block-vs-inline.css" />
+    </head>
+    <body>
+        <div>Div</div>
+        <p>Parágrafo</p>
+        Texto solto indus a criação de uma inline box implicito
+        <span>span 1</span> <span>span 2</span> <span>span 3</span>
+        <span>span 4</span> <a href="#">link 1</a>
+        <p>Parágrafo</p>
+
+        <div class="destaque">
+            Block box respeita width, height, border, padding e margin.
+        </div>
+
+        Contrary to popular belief, Lorem Ipsum is not simply random text. It
+        has roots in a piece of classical Latin literature from 45 BC, making it
+        over 2000 years old. Richard McClintock, a Latin professor at
+        Hampden-Sydney College in Virginia, looked up one of the more obscure
+        Latin words, consectetur, from a Lorem Ipsum passage, and going through
+        the cites of the word in classical literature, discovered the
+        undoubtable source
+
+        <div class="destaque" style="box-sizing: border-box">
+            Com <code>box-sizing: border-box</code> width e height consideram
+            borda padding
+        </div>
+        <div class="destaque">
+            Margens verticais adjacentes se sobrepõem (margin collapse)
+        </div>
+        Contrary to popular belief, Lorem Ipsum is not simply random text. It
+        has roots in a piece of classical Latin literature from 45 BC, making it
+        over 2000 years old. Richard McClintock, a Latin professor at
+        Hampden-Sydney College in Virginia, looked up one of the more obscure
+        Latin words, consectetur, from a Lorem Ipsum passage, and going through
+        the cites of the word in classical literature, discovered the
+        undoubtable source
+        <span class="destaque">Inline box ignora tamanho</span>
+        Contrary to popular belief, Lorem Ipsum is not simply random text. It
+        has roots in a piece of classical Latin literature from 45 BC, making it
+        over 2000 years old. Richard McClintock, a Latin professor at
+        Hampden-Sydney College in Virginia, looked up one of the more obscure
+        Latin words, consectetur, from a Lorem Ipsum passage, and going through
+        the cites of the word in classical literature, discovered the
+        undoubtable source
+    </body>
+</html>
