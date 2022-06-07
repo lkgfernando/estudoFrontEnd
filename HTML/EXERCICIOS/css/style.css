@@ -1,0 +1,40 @@
+body {
+    background-color: #ffe3dc;
+    font-family: "Oxygen", sans-serif;
+}
+
+h1 {
+    background-color: #d30c7b;
+    margin: 40px;
+    width: 800px;
+    color: white;
+    padding: 10px;
+}
+
+ul > h3 {
+    background-color: #d30c7b;
+    width: 800px;
+    color: white;
+    padding: 10px;
+}
+
+ul > li {
+    list-style-type: none;
+}
+
+ul > li > a:link {
+    text-decoration: none;
+    color: #d30c7b;
+    font-weight: bold;
+}
+
+ul > li > a:visited {
+    text-decoration: none;
+    color: #d30c7b;
+}
+
+ul > li > a:hover {
+    background-color: #dbb4ad;
+    width: 800px;
+    color: white;
+}

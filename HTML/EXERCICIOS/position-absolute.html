@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Position Absolute CSS</title>
+        <style>
+            div {
+                background-color: aqua;
+                padding: 8px;
+                border: 4px solid lightpink;
+                margin: 8px;
+            }
+        </style>
+    </head>
+    <body>
+        <div>XPTO</div>
+        <div style="position: absolute; top: 30px; right: 20px">
+            position: absolute; top: 30px ; right: 20px
+
+            <div>
+                Este é o DIV 3
+                <div style="position: absolute; top: 120px; left: -60px">
+                    Esté o filho do DIV 3 com <br />
+                    position: absolute; top: 120px; left: -60px
+                </div>
+            </div>
+        </div>
+        <div>XPTO 2</div>
+
+        <button><a href="index.html">Voltar</a></button>
+    </body>
+</html>
