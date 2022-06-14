@@ -1,0 +1,132 @@
+/* CSS Pagina */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+/* Css Header */
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(248, 249, 249);
+    border-top: 3px solid rgb(244, 130, 37);
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px,
+        rgba(0, 0, 0, 0.05) 0px 1px 4px 0px, rgba(0, 0, 0, 0.05) 0px 2px 8px 0px;
+}
+
+.header-inner {
+    height: 47px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+    margin: -4px 8px 0 8 px;
+    height: 27px;
+    background-image: url(https://cdn.sstatic.net/Sites/br/img/sprites.svg);
+    background-position: 0 -500px;
+}
+
+/* CSS Nav */
+
+.nav-area {
+    padding-top: 24px;
+}
+
+nav {
+    width: 164px;
+    position: sticky;
+    top: 74px;
+}
+
+nav a.current {
+    background-color: #eff0f1;
+    color: rgb(12, 13, 14);
+    text-decoration: none;
+    border-right: 3px solid rgb(244, 130, 37);
+    font-weight: 700;
+    padding-left: 8px;
+    display: block;
+    line-height: 31px;
+}
+
+/* CSS Main */
+
+.header-inner,
+.middle-area,
+.footer-area {
+    max-width: 1264px;
+    margin: auto;
+}
+
+.middle-area {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.content-area {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: row;
+    border-left: 1px solid #d6d9dc;
+    padding: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+main {
+    flex: 1 1 450px;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 27px;
+    font-weight: 400;
+}
+#placeholder-content {
+    height: 800px;
+}
+
+/* CSS Painel */
+
+.panel {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px,
+        rgba(0, 0, 0, 0.05) 0px 1px 4px 0px, rgba(0, 0, 0, 0.05) 0px 2px 8px 0px;
+    border: 1px solid rgb(228, 230, 232);
+    margin-bottom: 16px;
+    width: 298px;
+    border-radius: 3px;
+}
+
+.panel > h2 {
+    background-color: #fafafb;
+    padding: 12px 15px;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(83, 90, 96);
+    border-bottom: 1px solid rgb(214, 217, 220);
+}
+
+.panel > div {
+    padding: 12px 15px;
+}
+
+/* CSS Footer */
+
+footer {
+    background-color: rgb(36, 39, 41);
+    color: rgb(106, 115, 124);
+    padding: 24px;
+}
+
+#placeholder-footer {
+    height: 100px;
+}
