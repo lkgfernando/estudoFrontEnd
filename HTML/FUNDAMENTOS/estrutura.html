@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,15 +11,33 @@
       margin: 0;
       padding: 0;
     }
-    #heading {
-      background: red;
+
+    body {
+      background-position: top center;
+      background-size: cover;
+      background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/28b69a57-cadf-43d9-8a95-e5f2e11199de/7b43175d-df58-4148-84ad-b6525a738515/BR-pt-20221010-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
     }
-    #heading h1 {
+
+    #heading {
+      background: rgb(0, 0, 0, 0.7);
+    }
+
+    #heading div {
+      width: 80%;
+      display: flex;
+      justify-content: space-between;
+      margin: 0 auto;
+    }
+
+    #heading div h1 {
+      color: red;
+    }
+
+    #heading .h1 {
+      padding: 15px 0;
       font-size: 20px;
       text-transform: uppercase;
-      padding-top: 15px;
-      padding-left: 15px;
-      padding-bottom: 15px;
+
     }
 
     #heading a {
@@ -28,12 +47,19 @@
     }
   </style>
 </head>
+
 <body>
   <!-- Header -->
   <header id="heading">
-    <h1>
-      <a href="#">NetFlix</a>
-    </h1>
+    <div>
+      <h1 class="h1">
+        <a href="#">NetFlix</a>
+      </h1>
+      <h2 class="h1 na-direita">
+        <a href="#">NetFlix</a>
+      </h2>
+    </div>
   </header>
 </body>
+
 </html>
