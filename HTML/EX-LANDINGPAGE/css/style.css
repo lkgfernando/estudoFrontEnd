@@ -36,3 +36,22 @@ body {
     font-weight: 400;
     font-size: 18px;
 }
+
+/* Content */
+.content-main {
+    margin-bottom: 48px;
+    border-top: 0.4 solid #fff2e7;
+}
+
+.content-main-first {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content-main-written {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
