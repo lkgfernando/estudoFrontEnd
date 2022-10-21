@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100;200&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  background: linear-gradient(68.15deg, #f8f1f4 16.62%,  #AAABA8 85.61%);
+  
+}
+
+/* Heading */
+
+.heading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
+}
+
+.heading-logo {
+  width: 200px;
+  height: 80px;
+}
+
+.heading-menu {
+  display: flex;
+  gap: 32px;
+}
+
+.heading-menu-item {
+  font-family: 'Prompt', sans-serif ;
+  color: #000 ;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Content */
+
+.content-main {
+  margin-bottom: 48px;
+  border-top: 0.4px solid #FAB036 ;
+}
+
+.content-main-img {
+  height: auto;
+  margin: 30px 25px;
+}
