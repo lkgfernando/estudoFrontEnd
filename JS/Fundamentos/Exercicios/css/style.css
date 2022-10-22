@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(90.00deg, #e3e5d7 17%, #586875 85.60%)
+}
+
+.heading {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+
+}
+
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    color: #f6eddc;
+    font-weight: 400;
+    font-size: 48px;
+}
