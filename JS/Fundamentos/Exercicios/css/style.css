@@ -8,8 +8,12 @@
 
 body {
     font-size: 100%;
-    background: linear-gradient(90.00deg, #e3e5d7 17%, #586875 85.60%)
+    background: linear-gradient(90.00deg, #e3e5d7 17%, #586875 85.60%);
+    font-family: 'Ubuntu', sans-serif;
+    padding: 20px;
+   
 }
+
 
 .heading {
     display: flex;
@@ -25,4 +29,8 @@ h1 {
     color: #f6eddc;
     font-weight: 400;
     font-size: 48px;
+}
+
+section ul li {
+    list-style: none;
 }
