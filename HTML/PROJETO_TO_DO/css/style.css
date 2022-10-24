@@ -135,7 +135,7 @@ input, select {
 
 /* To Do List */
 
-.to-do {
+.full-list {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -144,12 +144,12 @@ input, select {
   transition: 0.3s;
 }
 
-.to-do h3 {
+.full-list h3 {
   flex: 1;
   font-size: 0.9rem;
 }
 
-.to-do button {
+.full-list button {
   margin-left: 0.4rem;
 
 }
