@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        .container {
+            align-items: center;
+            overflow: auto;
+            display: flex;
+            flex-direction: column;
+        }
+        table {
+            border-collapse: collapse;
+            font-family: sans-serif;
+
+        }
+
+        table td,
+        table th {
+            border: 1px solid #ccc;
+            padding: 0.5rem;
+        }
+
+        tfoot {
+            background-color: #ddd;
+            font-weight: 800;
+            font-style: italic;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h3>Tabela de contagem de moedas</h3>
+        <p>
+            <label for="date">Data: </label>
+            <input type="date" id="date" name="date">
+        </p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Valor</th>
+                    <th>Quantidade</th>
+                    <th>Valor Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td> <label value="0.05">R$ 0,05</label> </td>
+                    <td><input id="five-cents" type="number" min="0" max="500"></td>
+                    <td> 0.05 * qtd</td>
+                </tr>
+                <tr>
+                    <td> <label value="0.10">R$ 0,10</label> </td>
+                    <td><input id="ten-cents" type="number" min="0" max="500"></td>
+                    <td> 0.10 * qtd</td>
+                </tr>
+                <tr>
+                    <td> <label value="0.25">R$ 0,25</label> </td>
+                    <td><input id="twenty-five-cents" type="number" min="0" max="500"></td>
+                    <td> 0.25 * qtd</td>
+                </tr>
+                <tr>
+                    <td> <label value="0.50">R$ 0,50</label> </td>
+                    <td><input id="fifty-cents" type="number" min="0" max="500"></td>
+                    <td> 0.50 * qtd</td>
+                </tr>
+                <tr>
+                    <td> <label value="1.00">R$ 1,00</label> </td>
+                    <td><input id="one-real" type="number" min="0" max="500"></td>
+                    <td> 1.00 * qtd</td>
+                </tr>
+                <tr>
+                    <td> <label value="2.00">R$ 2,00</label> </td>
+                    <td><input id="two-real" type="number" min="0" max="500"></td>
+                    <td> 2.00 * qtd</td>
+                </tr>
+                <tr>
+                    <td> <label value="5.00">R$ 5,00</label> </td>
+                    <td><input id="five-real" type="number" min="0" max="500"></td>
+                    <td> 5.00 * qtd</td>
+                </tr>
+                <tr>
+                    <td> <label value="1.00">R$ 10,00</label> </td>
+                    <td><input id="ten-real" type="number" min="0" max="500"></td>
+                    <td> 10.00 * qtd</td>
+                </tr>
+                <tr>
+                    <td> <label value="20.00">R$ 20,00</label> </td>
+                    <td><input id="twenty-real" type="number" min="0" max="500"></td>
+                    <td> 20.00 * qtd</td>
+                </tr>
+                <tr>
+                    <td> <label value="50.00">R$ 50,00</label> </td>
+                    <td><input id="fifty-real" type="number" min="0" max="500"></td>
+                    <td> 50.00 * qtd</td>
+                </tr>
+                <tr>
+                    <td> <label value="100.00">R$ 100,00</label> </td>
+                    <td><input id="hundred-real" type="number" min="0" max="500"></td>
+                    <td> 100.00 * qtd</td>
+                </tr>
+            <tfoot>
+                <tr>
+                    <td colspan="2">Total para troco do dia: </td>
+                    <td>Soma</td>
+                </tr>
+            </tfoot>
+            </tbody>
+
+        </table>
+    </div>
+</body>
+
+</html>
