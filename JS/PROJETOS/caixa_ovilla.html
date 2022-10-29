@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Caixa O Villa</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <!-- CSS -->
+  <link rel="stylesheet" href="CSS/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <div class="col-4 m-4">
+    <h2>Caixa O Villa</h2>
+    
+    <form>
+      <div class="mb-4">
+        <label for="date" class="form-label">Data:</label>
+        <input type="date" class="form-control">
+      </div>
+      <div class="mb-4">
+        <label for="type" class="form-label">Tipo de operação:</label>
+        <select class="form-select" name="type-operacao" id="type-operacao">
+          <option disabled value selected>Selecione uma operação</option>
+          <option value="A">Abertura</option>
+          <option value="F">Fechamento</option>
+        </select>
+      </div>
+      <div class="mb-4">
+        <label for="five-centes" class="form-label">Cinco Centavos</label>
+        <input type="number" class="form-control" name="five-centes" id="five-centes">
+      </div>
+      <div class="mb-4">
+        <label for="ten-centes" class="form-label">Dez Centavos</label>
+        <input type="number" class="form-control" name="ten-centes" id="ten-centes">
+      </div>
+    </form>
+
+
+  </div>
+</body>
+</html>
