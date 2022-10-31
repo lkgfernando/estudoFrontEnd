@@ -35,3 +35,19 @@ h1 {
 section ul li {
     list-style: none;
 }
+
+.form-main {
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+}
+
+.table-main {
+    margin: 1.5rem;
+    padding: 0.5rem;
+}
+
+.table-main tr td {
+    padding: 0.30rem;
+}
