@@ -9,16 +9,18 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   <!-- CSS -->
   <link rel="stylesheet" href="CSS/style.css">
+
   <script src="js/script.js" defer></script>
 </head>
 <body>
+  <section class="main">
   <div class="col-4 m-4">
     <h2>Caixa O Villa</h2>
     
-    <form>
+    <form class="cashier" method="get">
       <div class="mb-4">
         <label for="date" class="form-label">Data:</label>
-        <input type="date" class="form-control">
+        <input type="date" class="form-control" id="date">
       </div>
       <div class="mb-4">
         <label for="type" class="form-label">Tipo de operação:</label>
@@ -36,9 +38,54 @@
         <label for="ten-centes" class="form-label">Dez Centavos</label>
         <input type="number" class="form-control" name="ten-centes" id="ten-centes">
       </div>
+      <div class="mb-4">
+        <label for="twenty-five-centes" class="form-label">Vinte e Cinco Centavos</label>
+        <input type="number" class="form-control" name="twenty-five-centes" id="twenty-five-centes">
+      </div>
+      <div class="mb-4">
+        <label for="fifty-centes" class="form-label">Cinquenta Centavos</label>
+        <input type="number" class="form-control" name="fifty-centes" id="fifty-centes">
+      </div>
+      <div class="mb-4">
+        <label for="one-real" class="form-label">Um Real</label>
+        <input type="number" class="form-control" name="one-real" id="one-real">
+      </div>
+      <div class="mb-4">
+        <label for="two-real" class="form-label">Dois Reais</label>
+        <input type="number" class="form-control" name="two-real" id="two-real">
+      </div>
+      <div class="mb-4">
+        <label for="five-real" class="form-label">Cinco Reais</label>
+        <input type="number" class="form-control" name="five-real" id="five-real">
+      </div>
+      <div class="mb-4">
+        <label for="ten-real" class="form-label">Dez Reais</label>
+        <input type="number" class="form-control" name="ten-real" id="ten-real">
+      </div>
+      <div class="mb-4">
+        <label for="twenty-five-real" class="form-label">Vinte e Cinco Reais</label>
+        <input type="number" class="form-control" name="twenty-five-real" id="twenty-five-real">
+      </div>
+      <div class="mb-4">
+        <label for="fifty-real" class="form-label">Cinquenta Reais</label>
+        <input type="number" class="form-control" name="fifty-real" id="fifty-real">
+      </div>
+      <div class="mb-4">
+        <label for="one-hundred-real" class="form-label">Cem Reais</label>
+        <input type="number" class="form-control" name="one-hundred-real" id="one-hundred-real">
+      </div>
+      <div class="mb-4">
+        <button class="btn btn-danger form-control">Cadastrar</button>
+      </div>
     </form>
 
-
   </div>
+  
+  <div class="dice">
+    
+  </div>
+
+
+</section>
 </body>
 </html>
