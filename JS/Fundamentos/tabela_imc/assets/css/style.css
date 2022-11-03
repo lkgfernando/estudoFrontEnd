@@ -67,8 +67,14 @@ table {
 
 /* Div Calc */
 
-.calc p {
+.result {
     background-color: #07a2a6;
     padding: 0.5em ;
     color: #9d1722;
+}
+
+.bad {
+    background-color: red;
+    padding: 0.5em;
+    color: #fff;
 }
