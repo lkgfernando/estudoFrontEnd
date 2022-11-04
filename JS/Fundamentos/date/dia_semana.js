@@ -1,30 +1,37 @@
-const date = new Date('2014-10-07 00:00:00')
-const dayOfTheWeek = date.getDay()
 
+function nameDayWeek(day) {
+    let dayName
+    switch (day) {
+        case 0:
+            dayName = 'Sunday'
+            return dayName;
+        case 1:
+            dayName = 'Monday'
+            return dayName
+        case 2:
+            dayName = 'Tuesday'
+            return dayName
+        case 3:
+            dayName = 'Wensnesday'
+            return dayName
+        case 4:
+            dayName = 'Thursday'
+            return dayName
+        case 5:
+            dayName = 'Friday'
+            return dayName
+        case 6:
+            dayName = 'Saturdays'
+        default:
+            dayName = 'Dia da semana inválido'
+            return dayName;
+    }
 
-
-switch (dayOfTheWeek) {
-    case 0:
-        console.log('Sunday')
-        break;
-    case 1:
-        console.log('Monday')
-        break
-    case 2:
-        console.log('Tuesday')
-        break
-    case 3:
-        console.log('Wensnesday')
-        break
-    case 4:
-        console.log('Thursday')
-        break
-    case 5:
-        console.log('Friday')
-        break
-    case 6:
-        console.log('Saturdays')
-    default:
-        console.log('Dia da seman inválido')
-        break;
 }
+
+
+const date = new Date()
+const dayOfTheWeek = date.getDay()
+const dayNameText = nameDayWeek(dayOfTheWeek)
+
+console.log(dayOfTheWeek, dayNameText)
