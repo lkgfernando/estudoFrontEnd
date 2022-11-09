@@ -8,13 +8,15 @@ function createChair (row, chair) {
   // let armchair = prompt("Informe a poltrona")
   movie_theater.innerHTML = ''
 
-  
+let i = 0
 
-  for(let i = 0 ; i <= row ; i++) {
-    div.classList.add('chairs')
-    div.innerHTML = i
-    movie_theater.appendChild(div)
-  }
+while (i <= 10 ) {
+  div.classList.add('chairs')
+  div.innerHTML += 0
+  movie_theater.appendChild(div)
+  i++
+}
+
 
   
 
@@ -24,4 +26,4 @@ function createChair (row, chair) {
 
 
 
-createChair(10,5)
+createChair(10,10)
