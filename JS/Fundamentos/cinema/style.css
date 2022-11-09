@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: bisque;
+}
+
+#movieTheater {
+  width: 1130px;
+  height: 1130px;
+  background-color: #513C2F;
+  align-items: center;
+  display: block;
+  margin: 0 auto;
+  padding: 15px;
+  
+
+}
+
+.chairs {
+  width: 80px;
+  height: 80px;
+  background-color: #83D350;
+  padding: 15px 28px;
+  color: #521808;
+  font-weight: bold;
+  font-size: 3rem;
+  margin: 10px 15px;
+  float: left;
+}
+
