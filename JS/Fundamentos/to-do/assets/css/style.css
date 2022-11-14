@@ -58,3 +58,7 @@ form button:hover {
     background: #7a8370;
     color: var(--primary-color);
 }
+
+.list-group {
+    word-break: normal;
+}
