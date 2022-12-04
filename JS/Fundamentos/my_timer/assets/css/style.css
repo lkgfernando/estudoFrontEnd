@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+:root {
+    --primary-color: #d8d8c0;
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.container {
+    max-width: 640px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 20px;
+}
+/* Timer */
+
+.watch {
+    font-size: 3rem;
+}
+.pause {
+    color: red;
+    font-size: 3rem;
+}
+
+/* Botões */
+
+.btn-timer {
+    border: none;
+    background: var(--primary-color);
+    color: #7a8370;
+    font-size: 0.8em;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 25px;
+    padding: 15px;
+}
+
+.btn-timer:hover {
+    background: #7a8370;
+    color: var(--primary-color);
+}
