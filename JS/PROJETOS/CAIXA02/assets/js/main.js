@@ -1,6 +1,6 @@
 function calculatorCashier() {
     return {
-        five_cents: document.querySelector('.five-cents'),
+        five_cents: document.querySelector('.fivecents'),
         t_five_cents: document.querySelector('.tfivecents'),
 
         start() {
@@ -8,7 +8,7 @@ function calculatorCashier() {
         },
 
         pressTab() {
-            this.five-cents.addEventListener('keydown', e => {
+            this.fivecents.addEventListener('keydown', e => {
                 if(e.keyCode === 9) {
                     this.calculate()
                 }
@@ -17,7 +17,7 @@ function calculatorCashier() {
 
         calculate() {
             const cFiveCents = 0.05
-            let fiveCents = this.five_cents.value
+            let fiveCents = this.fivecents.value
             let tFiveCents = fiveCents * cFiveCents
 
 
@@ -31,4 +31,5 @@ function calculatorCashier() {
 
 
 const calculator = calculatorCashier()
-calculatorCashier.start()
+console.log(calculator.start())
+
