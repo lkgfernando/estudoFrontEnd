@@ -12,48 +12,78 @@
     <!-- Java Script -->
     <script src="./assets/js/main.js" defer></script>
 
-    <title>Calculadora</title>
+    <title>Calculadora Caixa</title>
 </head>
 <body>
 
+    <header>
+        <nav>
+            <div class="logo">
+            <h1>Caixa O Villa </h1>
+            </div>
+        </nav>
+    </header>
     <section class="container">
-        <h1>Calculadora</h1>
+        <h2>Calculadora de Caixa</h2>
 
-        <table class="calculator">
-            <tr>
-                <td colspan="4" ><input type="text" class="form-control display"></td>
-            </tr>
-            <tr>
-                <td><button class="btn btn-light btn-clear">C</button></td>
-                <td><button class="btn btn-light btn-num">(</button></td>
-                <td><button class="btn btn-light btn-num">)</button></td>
-                <td><button class="btn btn-light btn-num">/</button></td>
-            </tr>
-            <tr>
-                <td><button class="btn btn-light btn-num">7</button></td>
-                <td><button class="btn btn-light btn-num">8</button></td>
-                <td><button class="btn btn-light btn-num">9</button></td>
-                <td><button class="btn btn-light btn-num">*</button></td>
-            </tr>
-            <tr>
-                <td><button class="btn btn-light btn-num">4</button></td>
-                <td><button class="btn btn-light btn-num">5</button></td>
-                <td><button class="btn btn-light btn-num">6</button></td>
-                <td><button class="btn btn-light btn-num">+</button></td>
-            </tr>
-            <tr>
-                <td><button class="btn btn-light btn-num">1</button></td>
-                <td><button class="btn btn-light btn-num">2</button></td>
-                <td><button class="btn btn-light btn-num">3</button></td>
-                <td><button class="btn btn-light btn-num">-</button></td>
-            </tr>
-            <tr>
-                <td><button class="btn btn-light btn-num">.</button></td>
-                <td><button class="btn btn-light btn-num">0</button></td>
-                <td><button class="btn btn-light btn-del">&laquo;</button></td>
-                <td><button class="btn btn-info btn-eq">=</button></td>
-            </tr>
-
+        <table class="calculator table">
+         <tr>
+            <td><label for="five-cents" >R$ 0,05 * </label></td>
+            <td><input type="text" class="five-cents"></td>
+            <td>R$ <label for="t-five-cents" class="tfivecents" >300,00</label></td>
+         </tr>
+         <tr>
+            <td><label for="ten-cents" >R$ 0,10 * </label></td>
+            <td><input type="text" class="ten-cents"></td>
+            <td>R$ <label for="t-ten-cents" class="t-ten-cents" >300,00</label></td>
+         </tr>
+         <tr>
+            <td><label for="twenty-five-cents" >R$ 0,25 * </label></td>
+            <td><input type="text" class="twenty-five-cents"></td>
+            <td>R$ <label for="t-twenty-five-cents" class="t-twenty-five-cents" >300,00</label></td>
+         </tr>
+         <tr>
+            <td><label for="fifty-cents" >R$ 0,50 * </label></td>
+            <td><input type="text" class="fifty-cents"></td>
+            <td>R$ <label for="t-fifty-cents" class="t-fifty-cents" >300,00</label></td>
+         </tr>
+         <tr>
+            <td><label for="one-real" >R$ 1,00 * </label></td>
+            <td><input type="text" class="one-real"></td>
+            <td>R$ <label for="t-one-real" class="t-one-real" >300,00</label></td>
+         </tr>
+         <tr>
+            <td><label for="five-real" >R$ 5,00 * </label></td>
+            <td><input type="text" class="five-real"></td>
+            <td>R$ <label for="t-five-real" class="t-five-real" >300,00</label></td>
+         </tr>
+         <tr>
+            <td><label for="ten-real" >R$ 10,00 * </label></td>
+            <td><input type="text" class="ten-real"></td>
+            <td>R$ <label for="t-ten-real" class="t-ten-real" >300,00</label></td>
+         </tr>
+         <tr>
+            <td><label for="twenty-five-real" >R$ 25,00 * </label></td>
+            <td><input type="text" class="twenty-five-real"></td>
+            <td>R$ <label for="t-ftwenty-five-real" class="t-twenty-five-real" >300,00</label></td>
+         </tr>
+         <tr>
+            <td><label for="fifty-real" >R$ 50,00 * </label></td>
+            <td><input type="text" class="fifty-real"></td>
+            <td>R$ <label for="t-fifty-real" class="t-fifty-real" >300,00</label></td>
+         </tr>
+         <tr>
+            <td><label for="one-hundred-real" >R$ 100,00 * </label></td>
+            <td><input type="text" class="one-hundred-real"></td>
+            <td>R$ <label for="t-one-hundred-real" class="t-one-hundred-real" >300,00</label></td>
+         </tr>
+         <tr class="lineTotal">
+            <td colspan="2"><label for="total" >Total </label></td>
+            <td>R$ <label for="t-total" class="t-total" >300,00</label></td>
+         </tr>
+         <tr>
+            <td colspan="3"><button class="btn btn-dark">Limpar</button></td>
+         </tr>
         </table>
        
     </section>
