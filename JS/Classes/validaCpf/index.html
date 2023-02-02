@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BootStrap -->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Java Script -->
+    <script src="./assets/js/main.js" defer></script>
+    <script src="./assets/js/validarCPF.js" defer></script>
+
+    <title>To Do</title>
+</head>
+
+<body>
+
+    <section class="container">
+        <h1>Formulário de cadastro</h1>
+        <ul>
+            <li>Nenhum campo pode estar vazio</li>
+            <li>Usuário só poderá conter letras ou números</li>
+            <li>Usuário deverá ter entre 3 e 12 caracteres</li>
+            <li>Senha precisa ter entre 6 e 12 caracteres</li>
+        </ul>
+        <form action="/" method="post" class="formulario">
+            <div class="form-floating mb-3">
+                <!-- <input type="text" class="form-control input-task" placeholder="Digite sua tarefa?" aria-label="Recipient's username" aria-describedby="button-addon2">
+            <button class="btn btn-outline-secondary btn-task" type="button" id="btn-task">Adicionar</button>
+            <button class="btn btn-outline-secondary btn-clear" type="button" id="btn-clear">Limpar</button> -->
+                <input type="text" class="form-control nome validar" placeholder="Digite seu nome?">
+                <label for="floatingInput">Nome</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control sobrenome validar" placeholder="Digite seu sobrenome?">
+                <label for="floatingInput">Sobrenome</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control cpf validar" placeholder="Digite seu CPF?">
+                <label for="floatingInput">CPF</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control usuario validar" placeholder="Digite um usuário">
+                <label for="floatingUsuario">Usuário</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="password" class="form-control senha validar" placeholder="Informe uma senha?">
+                <label for="floatingPassword">Senha</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="password" class="form-control repetir-senha validar" placeholder="Repetir a senha">
+                <label for="floatingCpf">Repetir a senha</label>
+            </div>
+            <div class="mb-3">
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+        </form>
+    </section>
+
+</body>
+
+</html>
