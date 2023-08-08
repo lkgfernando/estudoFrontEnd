@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Villa</title>
+    <style>
+        #conteudo {
+            padding: 30px 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>O Villa</h1>
+    </header>
+    <nav>
+        <a href="Cardapio/barca.html">Barca de Frango</a> |
+        <a href="Cardapio/combos.html">Combos</a> |
+        <a href="Cardapio/Torres_Batata.html">Torres de Batata</a> |
+        <a href="Cardapio/hamburgers.html">Hamburgers</a> |
+        <a href="Cardapio/porcoes.html">Porções</a> |
+        <a href="Cardapio/carnes.html">Carnes</a> |
+        <a href="Cardapio/pizzas.html">Pizzas</a> |
+    </nav>
+    <section id="conteudo">
+
+    </section>
+    <footer>
+        <br>
+        O Villa Bar e Restaurante EPP
+    </footer>
+    <script>
+        document.querySelectorAll('a').forEach(link => {
+            const conteudo = document.getElementById('conteudo')
+            link.onclick = function(e) {
+                e.preventDefault()
+                fetch(link.href)
+                    .then(resp => resp.text())
+                    .then(html => conteudo.innerHTML = html)
+            }
+        })
+    </script>
+</body>
+</html>
