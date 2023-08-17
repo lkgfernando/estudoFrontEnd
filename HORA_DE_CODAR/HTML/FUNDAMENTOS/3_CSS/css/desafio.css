@@ -1,0 +1,86 @@
+.title-box {
+    background-color: #394174;
+    color: #e0e4fe;
+    width: 1200px;
+    margin: 5px 5px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.ds-cores {
+    background-color: #ebecfa;
+    margin: 5px;
+    width: 1200px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.ds-cores-1 {
+    background-color: #ffffff;
+    color:#394174;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.ds-cores-2 {
+    background-color: #868cc1;
+    color:#091a44;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.ds-cores-3 {
+    background-color: #d4d7ff;
+    color:#394174;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px;
+}
+.ds-cores-4 {
+    background-color: #bec4ff;
+    color:#394174;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.elemento-h2 {
+    background-color: #091a44;
+    color: #afb2ea;
+    width: 1200px;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 2px solid #9195cf;
+    border-radius: 20px;
+}
+
+#id-classes {
+    background-color: #aeb1f1;
+    width: 1200px;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    border-radius: 20px;
+}
+
+.cls-elemento {
+   font-size: 20px;
+}
+
+.outiline {
+    outline: dashed;
+    width: 1200px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 0.5px;
+    font-size: 20px;
+    margin-top: 5px;
+}

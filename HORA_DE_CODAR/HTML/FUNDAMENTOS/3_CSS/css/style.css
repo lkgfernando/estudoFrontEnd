@@ -1,0 +1,150 @@
+body {
+    background-color: #c2c779;
+}
+
+h1 {
+    font-size: 4.5rem;
+    color: #fff;    
+}
+
+p {
+    font-size: 2.5rem;
+    margin: 5px;
+    padding: 5px;
+}
+
+ul {
+    color: #fff;
+    border: 5px solid #b6887d;
+    background-color: #f98173;
+    padding: 15px;
+}
+
+li {
+    font-size: 1.5rem;
+
+}
+
+/* Background Opacity */
+
+.bg-opacity {
+    background-color: green;
+    color: #111111;
+    opacity: 0.3;
+    padding: 1px;
+    margin: 5px ;
+    border: 2px solid #fff;
+}
+
+.bg-image {
+    background-image: url("../img/5801353.jpg");
+    color: #ffffff;
+    padding: 10px;
+    margin: 5px;
+    
+}
+
+.not-certered-bg,
+.certered-bg {
+    height: 400px;
+    width: 800px;
+    background-image: url("../img/8625340.jpg");
+}
+
+.certered-bg {
+    background-position: center;
+    background-size: cover;
+}
+
+/* heigth & width */
+
+.heigth-width {
+    height: 350px;
+    width: 275px;
+    background-color:#78160c;
+}
+
+.heigth-width-2 {
+    height: 300px;
+    background-color: #1e0503;
+}
+
+
+/* 23 - Padding */
+
+.without-padding,
+.padding {
+    background-color: #ffd7a7;
+    color: #780703;
+}
+
+.padding {
+    padding: 25px;
+    border-top: 3px solid #780703;
+}
+
+/* 24 - Padding individual */
+.paddin-ind {
+    background-color: #542700;
+    color: #ffffd7;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+
+}
+
+/* 25 - ShortHand */
+
+.shorthand-padding {
+    background-color: #fdff00;
+    padding: 10px 20px 30px 15px;
+}
+
+.shorthand-padding-2 {
+    background-color: #ffff6d;
+    padding: 20px 10px;
+}
+
+/* 26 - Border Box */
+
+.without-border-box {
+    background-color: #287e1c;
+    width: 400px;
+    padding: 50px;
+}
+
+.without-border-box-2 {
+    background-color: #a4df90;
+    width: 400px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+/*  27 - Border */
+
+.border {
+    border: 5px solid #2813ba ;
+    padding: 10px;
+}
+
+.border-2 {
+    border: 5px dotted #fabaff;
+    padding: 15px;
+}
+
+/* 29 - Border Radius */
+
+.border-radius {
+    border: 4px solid #1f061e;
+    background-color: #fcacf6;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.border-radius-2 {
+    margin-top: 5px;
+    background-color: #d9bbd8;
+    padding: 15px;
+    border-radius: 50px;
+}
