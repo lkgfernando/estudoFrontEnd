@@ -1,0 +1,22 @@
+/* 2- mdeia query */
+h1 {
+    color: brown;
+}
+
+@media screen and (max-width: 500px) {
+    h1 {
+        color: blueviolet;
+    }
+}
+
+p {
+    background-color: antiquewhite;
+    color: blueviolet;
+}
+
+@media screen and (min-width: 800px) {
+    p {
+        background-color: blueviolet;
+        color: antiquewhite;
+    }
+}
