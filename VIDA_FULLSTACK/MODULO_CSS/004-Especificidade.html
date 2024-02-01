@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Especificidade</title>
+  <style>
+    /* 0.0.0.1 */
+    p {
+      color: red;
+    }
+
+    .nova-cor {
+      color: aqua;
+    }
+
+    #nova-cor-id1,
+    #nova-cor-id2 {
+      color: chartreuse;
+    }
+
+    /* 0.0.1.1 */
+
+
+
+    /* 0.1.1.1 */
+  </style>
+</head>
+
+<body>
+  <h1>004 - Especificidade</h1>
+  <p>Texto 1</p>
+  <p class="nova-cor">Texto 2</p>
+  <p class="nova-cor">Texto 3</p>
+  <p id="nova-cor-id1" class="nova-cor">Texto 4</p>
+  <p id="nova-cor-id2" class="nova-cor" style="color: blue;">Texto 4</p>
+  <!-- 1.1.1.1 -->
+  <p>Texto 5</p>
+  <p>Texto 6</p>
+</body>
+
+</html>
